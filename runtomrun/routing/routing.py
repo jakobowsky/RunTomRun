@@ -24,10 +24,10 @@ class Routes:
 
     def get(self):
         routes = []
-        routes += self.__route_circle()
-        routes += self.__route_square()
-        routes += self.__route_line()
-        routes += self.__route_triangle()
+        routes += self.__route_circle()[:1]
+        routes += self.__route_square()[:1]
+        routes += self.__route_line()[:1]
+        routes += self.__route_triangle()[:1]
         return routes
 
     def __route_circle(self):

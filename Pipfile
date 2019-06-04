@@ -12,6 +12,7 @@ django = "*"
 djangorestframework = "*"
 requests = "*"
 geopy = "*"
+django-cors-headers = "*"
 
 [requires]
 python_version = "3.7"
